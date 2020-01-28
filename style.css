@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1 {
+    margin: 5px 0px 10px 0px;
+}
+h2 {
+    margin: 5px 0px 10px 0px; 
+}
+img {
+    padding: 5px;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -23,6 +32,7 @@
     float: left;
     padding-right: 30px;
     padding-left: 30px;
+    position: relative;
 }
 .other-posts{
     width: 25%;
@@ -30,4 +40,23 @@
 }
 .author-box {
     border-top: 1px solid #333333;
+}
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.author-text {
+    font-size: 22px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.other {
+    margin-bottom: 40px;
+}
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
 }
