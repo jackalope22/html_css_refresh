@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo {
+    width: 25%;
+    height: 25%;
+}
+.container {
+    width: 1140px;
+    padding-top: 20px;
+    margin: 20px auto 0px auto;
+
+}
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.other-posts{
+    width: 25%;
+    float: left;
+}
+.author-box {
+    border-top: 1px solid #333333;
+}
